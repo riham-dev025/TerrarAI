@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Data (never commit datasets or model weights to git)
+ai-service/data/
+*.pt
+*.onnx
+*.pth
+
+# Node
+web/node_modules/
+web/.next/
+
+# Env
+.env
+.env.local
+
+# OS
+.DS_Store
